@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="bg-red-300 font-lora">Hello world , how are you doing</h1>
+      <h1 className="bg-red-300 font-inter font-thin">Hello world , how are you doing</h1>
       <div>
         <FontAwesomeIcon icon={faBars} />
       </div>

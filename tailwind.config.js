@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ["Inter"],
-        lora: ["Lora"],
+        poppins: ["poppins"],
+        inter: ["inter"],
         italic: ["Italic"],
       },
     },
