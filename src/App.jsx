@@ -1,15 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="bg-red-300 font-inter font-thin">Hello world , how are you doing</h1>
-      <div>
-        <FontAwesomeIcon icon={faBars} />
-      </div>
+      <Navbar />
     </>
   );
 }
