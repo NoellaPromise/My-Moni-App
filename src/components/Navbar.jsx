@@ -32,24 +32,29 @@ function Navbar() {
               <div className="px-1 py-1 ">
                 <Menu.Item>
                   {({ active }) => (
-                    <button
-                      className={`${
-                        active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                    >
-                      Book a car
-                    </button>
+                    <Link to="/bookcar">
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        Book a car
+                      </button>
+                    </Link>
                   )}
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <button
-                      className={`${
-                        active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                    >
-                      My Bookings
-                    </button>
+                    <Link to="/mybookings">
+                      {" "}
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        My Bookings
+                      </button>
+                    </Link>
                   )}
                 </Menu.Item>
               </div>
@@ -68,26 +73,31 @@ function Navbar() {
                 </Menu.Item>
                 <Menu.Item>
                   {({ active }) => (
-                    <button
-                      className={`${
-                        active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                    >
-                      See my cars
-                    </button>
+                    <Link to="/mycar">
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        See my cars
+                      </button>
+                    </Link>
                   )}
                 </Menu.Item>
               </div>
               <div className="px-1 py-1">
                 <Menu.Item>
                   {({ active }) => (
-                    <button
-                      className={`${
-                        active ? "bg-violet-500 text-white" : "text-gray-900"
-                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                    >
-                      My bookings
-                    </button>
+                    <Link to="/addcar">
+                      {" "}
+                      <button
+                        className={`${
+                          active ? "bg-violet-500 text-white" : "text-gray-900"
+                        } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                      >
+                        Add new car
+                      </button>
+                    </Link>
                   )}
                 </Menu.Item>
               </div>
