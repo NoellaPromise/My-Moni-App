@@ -1,7 +1,7 @@
 function BookCar() {
   return (
     <div>
-      <h1>Welcome to the Book car page</h1>
+      <h1>Welcome to Book car page</h1>
     </div>
   );
 }

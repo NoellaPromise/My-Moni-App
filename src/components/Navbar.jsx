@@ -4,10 +4,10 @@ import { faCar } from "@fortawesome/free-solid-svg-icons";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <div >
+    <div>
       <ul className="bg-gray-800 text-white flex justify-between p-4">
         <Menu as="div" className="relative inline-block text-left">
           <div>
@@ -96,7 +96,9 @@ function Navbar() {
         </Menu>
 
         <li>
-          <FontAwesomeIcon icon={faCar} />
+          <Link to="/">
+            <FontAwesomeIcon icon={faCar} />
+          </Link>
         </li>
         <li>
           <FontAwesomeIcon icon={faUser} />
